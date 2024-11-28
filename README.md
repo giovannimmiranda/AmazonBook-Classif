@@ -14,7 +14,7 @@ Using advanced Natural Language Processing (NLP) techniques and deep learning mo
 - Size: 3,000,000 rows and 10 features.
 - Key features used:
   - review/text: Textual content of reviews.
-	- review/score: Numerical ratings (1–5 stars).
+  - review/score: Numerical ratings (1–5 stars).
 
 ## Challenges:
 
@@ -26,12 +26,12 @@ Using advanced Natural Language Processing (NLP) techniques and deep learning mo
 - Data Preprocessing
 - Model Architecture:
   - Bidirectional LSTM for capturing sequential patterns in text.
-	- Embedding layer for text vectorization.
+  - Embedding layer for text vectorization.
   - Dropout layers to reduce overfitting.
-	- Fully connected layers for classification.
+  - Fully connected layers for classification.
 - Training Details:
   - Loss Function: Cross-Entropy.
-	- Optimizer: Adam with a custom learning rate scheduler.
+  - Optimizer: Adam with a custom learning rate scheduler.
   - Regularization: Dropout with a 0.5 rate.
   - Early stopping to prevent overfitting.
 
